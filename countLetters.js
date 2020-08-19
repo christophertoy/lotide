@@ -6,19 +6,22 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const countLetters = function(str){
-  const results = {}
-  for (const letter of str){
-      if (letter === " "){
-        delete results[letter];
-      } else if (results[letter]) {
-        results[letter] += 1;
-      } else {
-        results[letter] = 1;
-      }
+const countLetters = function(str) {
+  const results = {};
+  for (const letter of str) {
+    if (letter === " ") {
+      delete results[letter];
+    } else if (results[letter]) {
+      results[letter] += 1;
+    } else {
+      results[letter] = 1;
+    }
   }
-return results;
+  return results;
 
 };
 
-console.log(countLetters("hello     world"));
+
+//TEST
+const word = "Tsunami Water Polo"
+console.log(countLetters(word));
