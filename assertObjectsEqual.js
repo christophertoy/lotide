@@ -48,5 +48,3 @@ const object2 = {
   age: 30,
   hometown: "Burnaby"
 };
-
-assertObjectsEqual(object1, object2);
