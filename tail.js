@@ -1,6 +1,6 @@
-const assertEqual = require('./assertEqual')
+const assertEqual = require('./assertEqual');
 
-const tail = function(array) {
+const tail = (array) => {
   let newArray = [];
   for (let i = 1; i < array.length; i++) {
     newArray.push(array[i]);
@@ -8,7 +8,7 @@ const tail = function(array) {
   return newArray;
 };
 
-module.exports = tail
+module.exports = tail;
 
 
 
