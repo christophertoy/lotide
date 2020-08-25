@@ -22,23 +22,3 @@ describe('#findKeybyValue ', () => {
   });
 });
 
-
-// //TEST Code
-// const bestTVShowsByGenre = {
-//   sci_fi: "The Expanse",
-//   comedy: "Brooklyn Nine-Nine",
-//   drama:  "The Wire"
-// };
-
-// assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
-// assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
-
-// const superHeroes = {
-//   DC: "Superman",
-//   Marvel: "Ironman",
-//   Anime: "Deku"
-// };
-
-// assertEqual(findKeyByValue(superHeroes, "Superman"), "DC");
-// assertEqual(findKeyByValue(superHeroes, "Deku"), undefined);
-// assertEqual(findKeyByValue(superHeroes, "Batman"), "DC");
